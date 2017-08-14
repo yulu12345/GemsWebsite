@@ -51,7 +51,10 @@ p{
 
 
 
-
+.vertical-align{
+	display: flex;
+	align-items: center;
+}
 
 
 td{
