@@ -1,0 +1,116 @@
+
+html {
+    /*this is the box size fix, so that the height/width is ok*/
+    box-sizing: border-box;
+    
+    /*some fuckery here to make the footer behave correctly depending on the amount of stuff on the page.*/
+    min-height:100%;
+    position:relative;
+    
+    /*background-color:#665F5C;*/
+}
+ html body{
+     /*this is just getting rid of the white border on pages*/
+    margin: 0;
+    padding: 0;
+	
+    /*i think this makes room for the footer bar - gives nice spacing*/
+    padding-bottom: 6rem;
+}
+
+
+
+/*
+*body formatting and shit
+*/
+h1{
+    /*serif font for titles*/
+    font-family:Georgia, "Times new Roman", Serif;
+    
+    /*this is so that it is near the top*/
+    margin-top:0;
+    padding:1em;
+    text-align:center;
+    
+}
+
+
+p{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    text-align: justify;
+    margin: 0 auto;
+    
+}
+
+.content{
+    padding-left:15%;
+    padding-right:15%;
+    width:70%;
+}
+
+
+td{
+    border: 1px solid black;
+}
+tr{
+	width: 70%;
+}
+
+
+.intro-pic{
+	max-width:100%;
+	height:auto;
+}
+
+/*image code and such*/
+#team-pic{
+    max-width:100%;
+    height: auto;
+    
+}
+
+
+
+
+
+/*This is the Navbar code*/
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    background-color: #333;
+    overflow:hidden;
+}
+
+li{
+    float:left;
+    
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #111;
+}
+
+
+
+
+/*footer code*/
+
+.footer ul{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #333;
+}
+
+
