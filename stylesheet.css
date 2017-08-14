@@ -43,11 +43,15 @@ p{
     
 }
 
-.content{
-    padding-left:15%;
-    padding-right:15%;
-    width:70%;
-}
+/* .content{ */
+    /* padding-left:15%; */
+    /* padding-right:15%; */
+    /* width:70%; */
+/* } */
+
+
+
+
 
 
 td{
@@ -71,10 +75,7 @@ tr{
 }
 
 
-.container-fluid{
-	padding-left: 0;
-	padding-right: 0;
-}
+
 
 
 /*This is the Navbar code*/
@@ -93,6 +94,9 @@ li{
     
 }
 
+.nopading {
+	padding:0 !important;
+}
 
 li a {
     display: block;
