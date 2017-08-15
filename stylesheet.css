@@ -57,6 +57,7 @@ p{
 }
 
 
+
 td{
     border: 1px solid black;
 }
@@ -70,19 +71,13 @@ tr{
 	height:auto;
 }
 
-/*image code and such*/
-#team-pic{
-    max-width:100%;
-    height: auto;
-    
-}
-
 
 
 
 
 /*This is the Navbar code*/
-ul{
+.navbar ul{
+	position: relative;
     list-style-type: none;
     margin: 0;
 	margin-left: 0;
