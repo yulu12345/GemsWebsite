@@ -71,7 +71,20 @@ tr{
 	height:auto;
 }
 
-
+/* this is css to center the text descriptions on the team page. */
+/* .teamtext-parent{ */
+	/* display: flex; */
+	/* height: auto; */
+/* } */
+.vertical-align{
+	display: flex;
+	align-items: center;
+}
+.center-teamtext{
+	text-align: center;
+	margin-left: 20%;
+	margin-right: 20%;
+	}
 
 
 
