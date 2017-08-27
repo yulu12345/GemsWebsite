@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
 html {
     /*this is the box size fix, so that the height/width is ok*/
     box-sizing: border-box;
@@ -9,6 +11,10 @@ html {
     
     /*background-color:#665F5C;*/
 }
+
+
+
+
  html body{
      /*this is just getting rid of the white border on pages*/
     margin: 0;
@@ -18,14 +24,24 @@ html {
     padding-bottom: 6rem;
 }
 
-
+.header-1{
+	
+	/*serif font for titles*/
+    font-family:Oxygen ;
+    
+	font-size:5em;
+    /*this is so that it is near the top*/
+    margin-top:0;
+    padding:1em;
+    text-align:center;
+}
 
 /*
 *body formatting and shit
 */
 h1{
     /*serif font for titles*/
-    font-family:Georgia, "Times new Roman", Serif;
+    font: Georgia ;
     
     /*this is so that it is near the top*/
     margin-top:0;
@@ -35,13 +51,36 @@ h1{
 }
 
 
+
 p{
     font-family: Helvetica, Arial, sans-serif;
     font-size: 1em;
-    text-align: justify;
+    text-align: center;
     margin: 0 auto;
     
 }
+
+/* img.bg { */
+  /* /* Set rules to fill background */ */
+  /* min-height: 10%; */
+  /* min-width: 1024px; */
+	
+  /* /* Set up proportionate scaling */ */
+  /* width: 100%; */
+  /* height: auto; */
+	
+  /* /* Set up positioning */ */
+  /* position: fixed; */
+  /* top: 0; */
+  /* left: 0; */
+/* } */
+
+/* @media screen and (max-width: 1024px) { /* Specific to this particular image */ */
+  /* img.bg { */
+    /* left: 50%; */
+    /* margin-left: -512px;   /* 50% */ */
+  /* } */
+/* } */
 
 /* .content{ */
     /* padding-left:15%; */
@@ -50,6 +89,7 @@ p{
 /* } */
 
 
+/* this is to make the text on the team page center itself */
 
 .vertical-align{
 	display: flex;
@@ -59,10 +99,11 @@ p{
 
 
 td{
-    border: 1px solid black;
+    /* border: 1px solid black; */
+	/* ^is unneeded */
 }
 tr{
-	width: 70%;
+	/* width: 70%; */
 }
 
 
