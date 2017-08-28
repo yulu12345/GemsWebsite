@@ -98,12 +98,8 @@ p{
 
 
 
-td{
-    /* border: 1px solid black; */
-	/* ^is unneeded */
-}
-tr{
-	/* width: 70%; */
+.centering{
+	text-align:center;
 }
 
 
